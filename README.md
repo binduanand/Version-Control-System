@@ -11,7 +11,7 @@ It allows you to:
 
 
 
-## 🚀 Features
+### 🚀 Features
 - **init** → Initializes a new local repository (`.LocalRepo` folder).  
 - **add \<file\>** → Stages a file for the next commit.  
 - **commit -m "message"** → Commits staged files with a message.  
