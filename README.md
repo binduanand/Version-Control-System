@@ -27,10 +27,12 @@ It allows you to:
    ```bash
    git clone https://github.com/binduanand/Version-Control-System
    cd Version-Control-System
+   ```
 
 2. Install dependencies:
- ```bash
+   ```bash
    npm install
+   ```
 
 
 ### 🖥️ Usage
