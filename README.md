@@ -9,7 +9,7 @@ It allows you to:
 - View commit history  
 - Revert to previous commits  
 
----
+
 
 ## 🚀 Features
 - **init** → Initializes a new local repository (`.LocalRepo` folder).  
@@ -18,7 +18,7 @@ It allows you to:
 - **log** → Displays commit history.  
 - **revert \<commit-id\>** → Reverts project files back to a specific commit.  
 
----
+
 
 
 
@@ -31,7 +31,6 @@ It allows you to:
 2. Install dependencies:
    npm install
 
----
 
 ## 🖥️ Usage
 Run commands using Node.js:
@@ -42,7 +41,7 @@ Run commands using Node.js:
 4. View Commit History - node server.js log
 5. Revert to a Commit - node server.js revert <commit-id>
 
----
+
 
 ## 🗂️ How It Works
 - Staging Area → .LocalRepo/staging stores added files.
