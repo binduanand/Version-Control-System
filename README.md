@@ -29,17 +29,32 @@ It allows you to:
    cd Version-Control-System
 
 2. Install dependencies:
+ ```bash
    npm install
 
 
 ### 🖥️ Usage
 Run commands using Node.js:
 
-1. Initialize Repository - node server.js init
-2. Add File to Staging Area - node server.js add <file>
-3. Commit Changes - node server.js commit -m "message"
-4. View Commit History - node server.js log
-5. Revert to a Commit - node server.js revert <commit-id>
+1. Initialize Repository
+```bash
+node server.js init
+
+2. Add File to Staging Area
+```bash
+node server.js add <file>
+
+3. Commit Changes
+```bash
+node server.js commit -m "message"
+
+4. View Commit History
+```bash
+node server.js log
+
+5. Revert to a Commit
+```bash
+ node server.js revert <commit-id>
 
 
 
