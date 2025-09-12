@@ -39,24 +39,29 @@ It allows you to:
 Run commands using Node.js:
 
 1. Initialize Repository
-
+ ```bash
 node server.js init
+```
 
 2. Add File to Staging Area
-
+ ```bash
 node server.js add <file>
+```
 
 3. Commit Changes
-
+ ```bash
 node server.js commit -m "message"
+```
 
 4. View Commit History
-
+ ```bash
 node server.js log
+```
 
 5. Revert to a Commit
-
+ ```bash
  node server.js revert <commit-id>
+```
 
 
 
