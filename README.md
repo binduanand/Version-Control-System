@@ -22,7 +22,7 @@ It allows you to:
 
 
 
-## ⚙️ Installation
+### ⚙️ Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/binduanand/Version-Control-System
@@ -32,7 +32,7 @@ It allows you to:
    npm install
 
 
-## 🖥️ Usage
+### 🖥️ Usage
 Run commands using Node.js:
 
 1. Initialize Repository - node server.js init
@@ -43,13 +43,13 @@ Run commands using Node.js:
 
 
 
-## 🗂️ How It Works
+### 🗂️ How It Works
 - Staging Area → .LocalRepo/staging stores added files.
 - Commits → Stored in .LocalRepo/commits/<commit-id>.
 - Commit Log → Tracked in .LocalRepo/commit.json.
 - Revert → Copies files from a commit directory back into the working directory.
 
- ## 🛠️ Tech Stack
+### 🛠️ Tech Stack
  - Node.js
  - Yargs → CLI framework
  - UUID → Generates unique commit IDs
